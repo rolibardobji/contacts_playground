@@ -1,5 +1,7 @@
 # Contacts Playground
 
+Sample iOS contacts application to apply reactive programming (through RxSwift and RxCocoa) and MVVM concepts.
+
 ## Table of contents
 * [Project structure](#project-structure)
 * [Project requirements](#project-requirements)
