@@ -7,6 +7,46 @@
 
 ## Project structure
 
+### XCWorkspace
+#### ContactsPlayground XCodeProj
+##### Assets
+###### Files
+###### # contacts.json###### New Contact
+##### Utilities
+###### FileSystem.swift
+###### Storage.swift
+##### Scenes
+###### Edit Contact
+###### # EditContactController.swift
+###### # EditContactViewModel.swift
+###### New Contact
+###### # NewContactController.swift
+###### # NewContactViewModel.swift
+###### Contacts List
+###### # ContactsListController.swift
+###### # ContactsListViewModel.swift
+##### Models
+###### Contacts
+###### # Contact.swift
+##### AppDelegate.swift
+##### Main.Storyboard
+##### Assets.xcassets
+##### LaunchScreen.Storyboard
+##### Info.plist
+
+#### Pods XCodeProj
+
 ## Project requirements
 
+### Xcode 10.2 +
+### iOS 12 +
+### Swift 5 +
+
 ## Project dependencies
+
+### RxSwift. Swift implementation for the Reactive Programming Paradigm.
+### RxCocoa. Swift implementation for the Reactive Programming Paradigm.
+### RealmSwift. Storage alternative to CoreData.
+### IQKeyboardManager. Library that prevent issues of keyboard sliding up and cover UITextField/UITextView.
+
+### To install dependencies, execute "pod install" from a terminal, on the root folder of the project.
