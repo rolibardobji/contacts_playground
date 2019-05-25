@@ -11,7 +11,7 @@
   - ContactsPlayground XCodeProj
     - Assets
       - Files
-        - contacts.json###### New Contact
+        - contacts.json
     - Utilities
       - FileSystem.swift
       - Storage.swift
@@ -19,12 +19,12 @@
       - Edit Contact
         - EditContactController.swift
         - EditContactViewModel.swift
-    - New Contact
-      - NewContactController.swift
-      - NewContactViewModel.swift
-    - Contacts List
-      - ContactsListController.swift
-      - ContactsListViewModel.swift
+      - New Contact
+        - NewContactController.swift
+        - NewContactViewModel.swift
+      - Contacts List
+        - ContactsListController.swift
+        - ContactsListViewModel.swift
     - Models
       - Contacts
         - Contact.swift
@@ -48,4 +48,4 @@
 - [RealmSwift](https://realm.io/docs/swift/latest). Storage alternative to CoreData.
 - [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager). Library that prevent issues of keyboard sliding up and cover UITextField/UITextView.
 
-- To install dependencies, execute "pod install" from a terminal, on the root folder of the project.
+#### To install dependencies, execute "pod install" from a terminal, on the root folder of the project.
