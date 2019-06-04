@@ -10,7 +10,7 @@ import UIKit
 import RealmSwift
 
 class Storage: NSObject {
-    let test = "Testing forced push effects"
+    let test = "Testing forced push effects with diverging testing1"
     
     static func store<T>(objects: [T]) {
         guard let realmObjects = objects as? [Object] else {
